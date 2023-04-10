@@ -1,0 +1,250 @@
+body { 
+  font-family:'Berkshire Swash', cursive;
+  font-family:'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+ main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8cbcd8;
+  flex-wrap: wrap;
+  padding: 20px;
+  color:rgb(4, 80, 4)
+  
+}
+
+header {
+  background-color: #7ddfb1;
+   width: 96.6,5%;
+   padding: 20px;  
+}
+
+h1 {
+ margin: 0;
+ color: #078507;
+ font-family:'Berkshire Swash', cursive;
+ text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.288);
+  
+}
+
+h2{
+  color: #078507;
+  text-align: end;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.288);
+  
+
+}
+
+
+ul{  
+  text-align: end;
+  color: #078507;
+  list-style: none;
+  font-family:'Berkshire Swash', cursive;
+  
+}
+
+.picole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:8px;
+  font-family:'Berkshire Swash', cursive;
+  margin: 20px;
+  padding: 20px;
+  background-color: #6dc583;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.picole img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px 0;
+  border-radius:8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+
+}
+
+.btn-adicionar,
+.btn-excluir {
+  width: 30px;
+  height: 30px;
+  background-color: #67d8d8;
+  border:none;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius:5px;
+  transition:0.8s;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+
+}
+.btn-adicionar:hover,
+.btn-excluir:hover{
+    background-color: #92d1d1;
+    transition:0.8s;
+
+}
+
+.quantidade-numero {
+  font-size: 2rem;
+  
+}
+
+.botoes button {
+  background-color: #4CAF50;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+  color: #fff;
+  font-family:'Berkshire Swash', cursive;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0 10px;
+  transition:1s
+}
+
+.botoes button:hover{
+  background-color: #7fc282;
+}
+.pagamento{  
+  background-color: #7ddfb1;
+  padding: 10px;
+  font-family:'Berkshire Swash', cursive; 
+  
+ 
+} 
+
+.pagamento i{
+  font-size: 30px;
+}
+footer {
+  background-color: #7ddfb1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  background-color:#b3d1b4 ;
+  display:flex;
+  font-family:'Berkshire Swash', cursive; 
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.footer-social a {
+  display:contents; 
+  color: #078507;
+  transition: color 1s;
+  font-size: 20px;
+   
+}
+
+.footer-social a:hover {
+  color: #0cce36;
+  transition: color 1s;
+  
+}
+
+ .footer-form {
+  width: 100%;
+  margin: 6%;  
+  
+}
+
+.footer-form h3 {
+  color: #078507;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  
+}
+
+.footer-form form input[type="text"],
+.footer-form form input[type="email"],
+.footer-form form textarea {
+  width: 100%;
+  padding: 1px;
+  font-family:'Berkshire Swash', cursive;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-form form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  font-family:'Berkshire Swash', cursive;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:1%;
+  transition: background-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-form form button[type="submit"]:hover {
+  background-color: #7fc282;
+  transition:1s;
+  
+}
+textarea{
+  margin:0.1px;
+}
+
+@media screen {
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .picole-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .picole-quantidade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    margin-top: 10px;
+  }
+  
+  .picole-quantidade button {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .picole-quantidade .quantidade-numero {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+
+  .venda-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-cancelar, .btn-concluir {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  
+    
+}
+
